@@ -16,3 +16,11 @@ if odd == even:
     print("True")
 else:
     print("False")
+
+num = int(input("enter first number: "))
+x = 1
+for i in range(1, num + 1):
+    s = ''
+    for j in range(i, 0, -1):
+        s += str(j) + ' '
+    print(s)
